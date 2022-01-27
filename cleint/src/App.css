@@ -1,0 +1,134 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  color:white;
+}
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap');
+
+
+/* p{
+  margin: 5px;
+  color:white;
+} */
+.crypto_form p {
+  color: rgb(77, 77, 77);
+  margin-left:5px;
+  font-family: 'Ubuntu Mono', monospace;
+}
+
+body {
+  height: 100vh;
+  background-image: url("https://wallup.net/wp-content/uploads/2017/11/17/294060-minimalism.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.greeting input {
+  justify-content: center;
+  width: 60vw;
+  border-radius: 12px;
+  border: 1px rgb(148, 148, 148) solid;
+}
+.card {
+  margin: 20vh auto 2vh auto;
+  width: 60vw;
+  backdrop-filter: blur(16px) saturate(200%);
+  -webkit-backdrop-filter: blur(16px) saturate(200%);
+  background-color: rgba(217, 217, 217, 0.56);
+  border-radius: 12px;
+  border: 1px solid rgba(209, 213, 219, 0.3);
+}
+.greeting {
+  display: flex;
+  margin: 1vh 1vw 3vh 1vw;
+}
+
+
+button {
+  background-image: linear-gradient(
+    to right,
+    #da22ff 0%,
+    #9733ee 51%,
+    #da22ff 100%
+  );
+}
+button {
+  margin: 10px;
+  padding: 15px 30px;
+  text-align: center;
+  text-transform: uppercase;
+  border: none;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  /* box-shadow: 0 0 20px #eee; */
+  border-radius: 10px;
+  display: block;
+}
+
+button:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.transaction {
+  margin: 2vh 1vh 5vh 1vh;
+  display: flex;
+  flex-direction: column;
+}
+.transaction_input {
+  margin: auto;
+}
+.transaction_input input {
+  width: 55vw;
+  border-radius: 10px;
+  border: none;
+  margin: 5px;
+  padding: 12px;
+  /* justify-content: center; */
+}
+.transaction_button input {
+  width: 20vw;
+  border-radius: 10px;
+  border: none;
+  margin: 10px;
+  padding: 12px;
+}
+.transaction_button button {
+  width: 15vw;
+}
+.transaction_button {
+  display: flex;
+  justify-content: space-evenly;
+}
+.crypto_card {
+  font-family: 'Ubuntu Mono', monospace;
+  /* background-color:red; */
+  background: rgba(1, 1, 1, 1.0);
+  background: -webkit-linear-gradient(bottom left, rgba(1, 1, 1, 1.0), rgba(112, 113, 113, 1.0));
+  background: -moz-linear-gradient(bottom left, rgba(1, 1, 1, 1.0), rgba(112, 113, 113, 1.0));
+  background: linear-gradient(to top right, rgba(1, 1, 1, 1.0), rgba(112, 113, 113, 1.0));
+  position: relative;
+  margin: auto;
+  margin-top: -15vh;
+  border-radius: 10px;
+  width: 28vw;
+  height: 14vw;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  
+}
+
+
+.card_heading{
+  display:flex;
+  justify-content: space-between;
+}
+.card_detail{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
